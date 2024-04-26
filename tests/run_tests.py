@@ -3,6 +3,7 @@ import os
 script_to_run:str = "full_test.py"
 # path below in UNIX format, with slashes
 script_dir:str = "/Users/gilles_recital/source/repos/rag-package/tests/"
+# CONTRIBUTION IDEA: Would use pathlib here to simplify this relative path so it works easily on other computers.
 
 
 commands:dict[str,dict] = {
